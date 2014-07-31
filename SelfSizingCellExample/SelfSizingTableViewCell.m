@@ -23,9 +23,9 @@
 }
 
 -(void) initializeCellWithItem:(NSDictionary *) dict{
-    
-    self.titleLabel.font = [UIFont preferredFontForTextStyle:@"Helvetica-Neue"];
-    self.descLabel.font = [UIFont preferredFontForTextStyle:@"Helvetica-Neue"];
+
+    self.titleLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
+    self.descLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
     self.titleLabel.text = [dict valueForKey:@"title"];
     self.descLabel.text = [dict valueForKey:@"description"];
 }
