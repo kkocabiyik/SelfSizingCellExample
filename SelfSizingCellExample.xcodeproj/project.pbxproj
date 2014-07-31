@@ -11,6 +11,10 @@
 		FB987D48198AF35500B3A765 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB987D47198AF35500B3A765 /* AppDelegate.m */; };
 		FB987D4A198AF35500B3A765 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB987D49198AF35500B3A765 /* Images.xcassets */; };
 		FB987D56198AF35500B3A765 /* SelfSizingCellExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB987D55198AF35500B3A765 /* SelfSizingCellExampleTests.m */; };
+		FB987D62198AF37D00B3A765 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB987D60198AF37D00B3A765 /* MainViewController.m */; };
+		FB987D63198AF37D00B3A765 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB987D61198AF37D00B3A765 /* MainViewController.xib */; };
+		FB987D67198AF48000B3A765 /* SelfSizingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB987D65198AF48000B3A765 /* SelfSizingTableViewCell.m */; };
+		FB987D68198AF48000B3A765 /* SelfSizingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB987D66198AF48000B3A765 /* SelfSizingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,12 @@
 		FB987D4F198AF35500B3A765 /* SelfSizingCellExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSizingCellExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB987D54198AF35500B3A765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB987D55198AF35500B3A765 /* SelfSizingCellExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfSizingCellExampleTests.m; sourceTree = "<group>"; };
+		FB987D5F198AF37D00B3A765 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FB987D60198AF37D00B3A765 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FB987D61198AF37D00B3A765 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		FB987D64198AF48000B3A765 /* SelfSizingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSizingTableViewCell.h; sourceTree = "<group>"; };
+		FB987D65198AF48000B3A765 /* SelfSizingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSizingTableViewCell.m; sourceTree = "<group>"; };
+		FB987D66198AF48000B3A765 /* SelfSizingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfSizingTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,12 @@
 				FB987D47198AF35500B3A765 /* AppDelegate.m */,
 				FB987D49198AF35500B3A765 /* Images.xcassets */,
 				FB987D42198AF35500B3A765 /* Supporting Files */,
+				FB987D5F198AF37D00B3A765 /* MainViewController.h */,
+				FB987D60198AF37D00B3A765 /* MainViewController.m */,
+				FB987D61198AF37D00B3A765 /* MainViewController.xib */,
+				FB987D64198AF48000B3A765 /* SelfSizingTableViewCell.h */,
+				FB987D65198AF48000B3A765 /* SelfSizingTableViewCell.m */,
+				FB987D66198AF48000B3A765 /* SelfSizingTableViewCell.xib */,
 			);
 			path = SelfSizingCellExample;
 			sourceTree = "<group>";
@@ -157,6 +173,7 @@
 				TargetAttributes = {
 					FB987D3E198AF35500B3A765 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 7VSEV4DX9Y;
 					};
 					FB987D4E198AF35500B3A765 = {
 						CreatedOnToolsVersion = 6.0;
@@ -188,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB987D4A198AF35500B3A765 /* Images.xcassets in Resources */,
+				FB987D68198AF48000B3A765 /* SelfSizingTableViewCell.xib in Resources */,
+				FB987D63198AF37D00B3A765 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB987D48198AF35500B3A765 /* AppDelegate.m in Sources */,
+				FB987D67198AF48000B3A765 /* SelfSizingTableViewCell.m in Sources */,
+				FB987D62198AF37D00B3A765 /* MainViewController.m in Sources */,
 				FB987D45198AF35500B3A765 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +267,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kemal Kocabiyik (2352QEC6G4)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -266,6 +287,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "82848441-36A1-4163-8C0E-65E02DF29D41";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -300,6 +322,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "82848441-36A1-4163-8C0E-65E02DF29D41";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -310,9 +333,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kemal Kocabiyik (2352QEC6G4)";
 				INFOPLIST_FILE = SelfSizingCellExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -321,9 +347,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SelfSizingCellExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
